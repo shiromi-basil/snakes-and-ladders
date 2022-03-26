@@ -1,0 +1,24 @@
+THEORY ProofList IS
+_f(1) & _f(2) & _f(3) & WellDefinednessAssertions.2,(_f(11) => _f(13));
+_f(1) & _f(2) & _f(3) & WellDefinednessAssertions.1,(_f(11) => _f(12));
+_f(1) & _f(2) & _f(3) & AssertionLemmas.1,(_f(4) => _f(5))
+END
+&
+THEORY Formulas IS
+((NAT) = (((0) .. (2147483647)))) & ((INT) = (((-2147483647) .. (2147483647))));
+random : (INTEGER * INTEGER) +-> INTEGER & dom(random) = (INTEGER * INTEGER) & ((random) : ((((INTEGER * INTEGER)) --> (INTEGER)))) & ((random) = (%(xx,yy).(((xx) : (INTEGER)) & ((yy) : (INTEGER)) | xx)));
+btrue;
+"Assertion is verified";
+(((random )(((1) |-> (3)))) : (((1) .. (2))));
+((xx) : (INTEGER));
+((yy) : (INTEGER));
+random : (INTEGER * INTEGER) +-> INTEGER;
+dom(random) = (INTEGER * INTEGER);
+((random) : ((((INTEGER * INTEGER)) --> (INTEGER))));
+"Well definedness";
+((((1) |-> (3))) : (dom(random)));
+((random) : (((dom(random)) +-> (ran(random)))))
+END
+&
+THEORY EnumerateX
+END

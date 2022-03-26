@@ -1,0 +1,32 @@
+THEORY ProofList IS
+_f(1) & _f(2) & _f(3) & _f(4) & _f(10) & _f(11) & WellDefinedness_rollDice.2,(_f(14) => _f(16));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(10) & _f(11) & WellDefinedness_rollDice.1,(_f(14) => _f(15));
+_f(1) & _f(2) & _f(3) & _f(4) & WellDefinednessInitialisation.2,(_f(14) => _f(16));
+_f(1) & _f(2) & _f(3) & _f(4) & WellDefinednessInitialisation.1,(_f(14) => _f(15));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(10) & _f(11) & rollDice.2,(_f(5) & _f(8) => _f(9));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(10) & _f(11) & rollDice.1,(_f(5) & _f(6) => _f(7));
+_f(1) & _f(2) & _f(3) & _f(4) & Initialisation.2,(_f(5) & _f(8) => _f(9));
+_f(1) & _f(2) & _f(3) & _f(4) & Initialisation.1,(_f(5) & _f(6) => _f(7))
+END
+&
+THEORY Formulas IS
+((NAT) = (((0) .. (2147483647)))) & ((INT) = (((-2147483647) .. (2147483647))));
+random : (INTEGER * INTEGER) +-> INTEGER & dom(random) = (INTEGER * INTEGER) & ((random) : ((((INTEGER * INTEGER)) --> (INTEGER)))) & ((random) = (%(xx,yy).(((xx) : (INTEGER)) & ((yy) : (INTEGER)) | xx)));
+dice : POW( (NAT-{0})) & ((dice) = (((1) .. (6))));
+(((random )(((1) |-> (3)))) : (((1) .. (2))));
+"Invariant is preserved";
+"Check invariant ((diceValue) : ((NAT-{0})))";
+(((random )(((1) |-> (7)))) : ((NAT-{0})));
+"Check invariant ((diceValue) : (dice))";
+(((random )(((1) |-> (7)))) : (dice));
+((diceValue) : ((NAT-{0}))) & ((diceValue) : (dice));
+btrue;
+dice : POW( (NAT-{0}));
+((diceValue) : ((NAT-{0})));
+"Well definedness";
+((((1) |-> (7))) : (dom(random)));
+((random) : (((dom(random)) +-> (ran(random)))))
+END
+&
+THEORY EnumerateX
+END

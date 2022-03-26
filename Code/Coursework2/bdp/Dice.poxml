@@ -1,0 +1,777 @@
+<Proof_Obligations>
+<Define name="B definitions">
+<Nary_Pred op="&amp;">
+<Exp_Comparison op="=">
+<Id value="NAT"/>
+<Binary_Exp op="..">
+<Integer_Literal value="0"/>
+<Id value="MAXINT"/>
+</Binary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Id value="INT"/>
+<Binary_Exp op="..">
+<Id value="MININT"/>
+<Id value="MAXINT"/>
+</Binary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Define>
+<Define name="ctx">
+<Attr>
+<Pos c="5" l="18" s="10"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="15" l="19" s="1"/>
+</Attr>
+<Id typref="1884358727" value="random" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:2:1:1:1">
+<Attr>
+<Pos c="9" l="19" s="6"/>
+</Attr>
+</Id>
+<Binary_Exp typref="2134698876" op="--&gt;">
+<Attr>
+<Pos c="33" l="19" s="3"/>
+</Attr>
+<Binary_Exp typref="103245008" op="*">
+<Attr>
+<Pos c="24" l="19" s="1"/>
+</Attr>
+<Id typref="3603043417" value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:2:1:1:2:1:1">
+<Attr>
+<Pos c="17" l="19" s="7"/>
+</Attr>
+</Id>
+<Id typref="3603043417" value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:2:1:1:2:1:2">
+<Attr>
+<Pos c="25" l="19" s="7"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id typref="3603043417" value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:2:1:1:2:2">
+<Attr>
+<Pos c="37" l="19" s="7"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="16" l="20" s="1"/>
+</Attr>
+<Id typref="1884358727" value="random" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:2:1:2:1">
+<Attr>
+<Pos c="9" l="20" s="6"/>
+</Attr>
+</Id>
+<Quantified_Exp typref="1884358727" type="%">
+<Attr>
+<Pos c="26" l="20" s="1"/>
+</Attr>
+<Variables>
+<Id typref="2701647786" value="xx" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:2:1:2:2:1:1">
+<Attr>
+<Pos c="20" l="20" s="2"/>
+</Attr>
+</Id>
+<Id typref="2701647786" value="yy" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:2:1:2:2:1:2">
+<Attr>
+<Pos c="23" l="20" s="2"/>
+</Attr>
+</Id>
+</Variables>
+<Pred>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="30" l="20" s="1"/>
+</Attr>
+<Id typref="2701647786" value="xx" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:2:1:2:2:2:1:1:1">
+<Attr>
+<Pos c="28" l="20" s="2"/>
+</Attr>
+</Id>
+<Id typref="3603043417" value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:2:1:2:2:2:1:1:2">
+<Attr>
+<Pos c="31" l="20" s="7"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="43" l="20" s="1"/>
+</Attr>
+<Id typref="2701647786" value="yy" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:2:1:2:2:2:1:2:1">
+<Attr>
+<Pos c="41" l="20" s="2"/>
+</Attr>
+</Id>
+<Id typref="3603043417" value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:2:1:2:2:2:1:2:2">
+<Attr>
+<Pos c="44" l="20" s="7"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Pred>
+<Body>
+<Id typref="2701647786" value="xx" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:2:1:2:2:3:1">
+<Attr>
+<Pos expanded="yes" c="59" l="20" s="2"/>
+<Pos c="52" l="20" s="6"/>
+</Attr>
+</Id>
+</Body>
+</Quantified_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Define>
+<Define name="seext">
+<Attr>
+<Pos c="5" l="22" s="10"/>
+</Attr>
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="21" l="23" s="1"/>
+</Attr>
+<Binary_Exp typref="2701647786" op="(">
+<Attr>
+<Pos c="15" l="23" s="0"/>
+</Attr>
+<Id typref="1884358727" value="random" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:4:1:1:1">
+<Attr>
+<Pos c="9" l="23" s="6"/>
+</Attr>
+</Id>
+<Binary_Exp op="|-&gt;">
+<Integer_Literal typref="2701647786" value="1" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:4:1:1:2:1">
+<Attr>
+<Pos c="16" l="23" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal typref="2701647786" value="3" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:4:1:1:2:2">
+<Attr>
+<Pos c="18" l="23" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+<Binary_Exp typref="3603043417" op="..">
+<Attr>
+<Pos c="24" l="23" s="2"/>
+</Attr>
+<Integer_Literal typref="2701647786" value="1" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:4:1:2:1">
+<Attr>
+<Pos c="23" l="23" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal typref="2701647786" value="2" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:4:1:2:2">
+<Attr>
+<Pos c="26" l="23" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Exp_Comparison>
+</Define>
+<Define name="lprp">
+<Attr>
+<Pos c="5" l="17" s="10"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op="&lt;:">
+<Attr>
+<Pos c="22" l="18" s="2"/>
+</Attr>
+<Id typref="3603043417" value="dice" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:4:1:1:1">
+<Attr>
+<Pos c="17" l="18" s="4"/>
+</Attr>
+</Id>
+<Id typref="3603043417" value="NAT1" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:4:1:1:2">
+<Attr>
+<Pos c="25" l="18" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="22" l="19" s="1"/>
+</Attr>
+<Id typref="3603043417" value="dice" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:4:1:2:1">
+<Attr>
+<Pos c="17" l="19" s="4"/>
+</Attr>
+</Id>
+<Binary_Exp typref="3603043417" op="..">
+<Attr>
+<Pos c="25" l="19" s="2"/>
+</Attr>
+<Integer_Literal typref="2701647786" value="1" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:4:1:2:2:1">
+<Attr>
+<Pos c="24" l="19" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal typref="2701647786" value="6" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:4:1:2:2:2">
+<Attr>
+<Pos c="27" l="19" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Define>
+<Define name="inprp"/>
+<Define name="inext"/>
+<Define name="inv">
+<Attr>
+<Pos c="9" l="24" s="9"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":" initialTag="((diceValue) : ((NAT-{0})))">
+<Attr>
+<Pos c="27" l="25" s="1"/>
+</Attr>
+<Id typref="2701647786" value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:5:1:1:1">
+<Attr>
+<Pos c="17" l="25" s="9"/>
+</Attr>
+</Id>
+<Id typref="3603043417" value="NAT1" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:5:1:1:2">
+<Attr>
+<Pos c="29" l="25" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":" initialTag="((diceValue) : (dice))">
+<Attr>
+<Pos c="27" l="26" s="1"/>
+</Attr>
+<Id typref="2701647786" value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:5:1:2:1">
+<Attr>
+<Pos c="17" l="26" s="9"/>
+</Attr>
+</Id>
+<Id typref="3603043417" value="dice" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:5:1:2:2">
+<Attr>
+<Pos c="29" l="26" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Define>
+<Define name="ass"/>
+<Define name="cst"/>
+<Proof_Obligation>
+<Comment>Initialisation dans une machine abstraite</Comment>
+<Tag>Initialisation</Tag>
+<Tag>Invariant</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Goal>
+<Sub_Calculus>
+<Nary_Sub op=";">
+<Attr>
+<Pos c="9" l="28" s="14"/>
+</Attr>
+<Simple_Assignement_Sub>
+<Variables>
+<Id typref="2701647786" value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:6:1:1:1">
+<Attr>
+<Pos c="17" l="29" s="9"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Binary_Exp typref="2701647786" op="(">
+<Attr>
+<Pos c="17" l="29" s="9"/>
+</Attr>
+<Id typref="1884358727" value="random" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:6:1:2:1:1">
+<Attr>
+<Pos c="30" l="29" s="6"/>
+</Attr>
+</Id>
+<Binary_Exp op="|-&gt;">
+<Integer_Literal typref="2701647786" value="1" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:6:1:2:1:2:1">
+<Attr>
+<Pos c="39" l="29" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal typref="2701647786" value="7" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:6:1:2:1:2:2">
+<Attr>
+<Pos c="42" l="29" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+</Values>
+</Simple_Assignement_Sub>
+</Nary_Sub>
+<Binary_Pred op="=&gt;">
+<Nary_Pred op="&amp;"/>
+<Tag goalTag="Invariant is preserved">
+<Nary_Pred op="&amp;">
+<Attr>
+<Pos c="9" l="24" s="9"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":" initialTag="((diceValue) : ((NAT-{0})))">
+<Attr>
+<Pos c="27" l="25" s="1"/>
+</Attr>
+<Id typref="2701647786" value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:5:1:1:1">
+<Attr>
+<Pos c="17" l="25" s="9"/>
+</Attr>
+</Id>
+<Id typref="3603043417" value="NAT1" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:5:1:1:2">
+<Attr>
+<Pos c="29" l="25" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":" initialTag="((diceValue) : (dice))">
+<Attr>
+<Pos c="27" l="26" s="1"/>
+</Attr>
+<Id typref="2701647786" value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:5:1:2:1">
+<Attr>
+<Pos c="17" l="26" s="9"/>
+</Attr>
+</Id>
+<Id typref="3603043417" value="dice" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:5:1:2:2">
+<Attr>
+<Pos c="29" l="26" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Binary_Pred>
+</Sub_Calculus>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>rollDice</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Goal>
+<Sub_Calculus>
+<Simple_Assignement_Sub>
+<Variables>
+<Id typref="2701647786" value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:7:1:1:1:1:1">
+<Attr>
+<Pos c="25" l="35" s="9"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Binary_Exp typref="2701647786" op="(">
+<Attr>
+<Pos c="25" l="35" s="9"/>
+</Attr>
+<Id typref="1884358727" value="random" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:7:1:1:1:2:1:1">
+<Attr>
+<Pos c="38" l="35" s="6"/>
+</Attr>
+</Id>
+<Binary_Exp op="|-&gt;">
+<Integer_Literal typref="2701647786" value="1" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:7:1:1:1:2:1:2:1">
+<Attr>
+<Pos c="47" l="35" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal typref="2701647786" value="7" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:7:1:1:1:2:1:2:2">
+<Attr>
+<Pos c="50" l="35" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+</Values>
+</Simple_Assignement_Sub>
+<Binary_Pred op="=&gt;">
+<Nary_Pred op="&amp;"/>
+<Tag goalTag="Invariant is preserved">
+<Nary_Pred op="&amp;">
+<Attr>
+<Pos c="9" l="24" s="9"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":" initialTag="((diceValue) : ((NAT-{0})))">
+<Attr>
+<Pos c="27" l="25" s="1"/>
+</Attr>
+<Id typref="2701647786" value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:5:1:1:1">
+<Attr>
+<Pos c="17" l="25" s="9"/>
+</Attr>
+</Id>
+<Id typref="3603043417" value="NAT1" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:5:1:1:2">
+<Attr>
+<Pos c="29" l="25" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":" initialTag="((diceValue) : (dice))">
+<Attr>
+<Pos c="27" l="26" s="1"/>
+</Attr>
+<Id typref="2701647786" value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:5:1:2:1">
+<Attr>
+<Pos c="17" l="26" s="9"/>
+</Attr>
+</Id>
+<Id typref="3603043417" value="dice" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:5:1:2:2">
+<Attr>
+<Pos c="29" l="26" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Binary_Pred>
+</Sub_Calculus>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Tag>WellDefinednessConstraints</Tag>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;"/>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Tag>WellDefinednessProperties</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Hypothesis/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op="&lt;:">
+<Attr>
+<Pos c="22" l="18" s="2"/>
+</Attr>
+<Id typref="3603043417" value="dice" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:4:1:1:1">
+<Attr>
+<Pos c="17" l="18" s="4"/>
+</Attr>
+</Id>
+<Id typref="3603043417" value="NAT1" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:4:1:1:2">
+<Attr>
+<Pos c="25" l="18" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Tag>WellDefinednessInvariant</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op=":" initialTag="((diceValue) : ((NAT-{0})))">
+<Attr>
+<Pos c="27" l="25" s="1"/>
+</Attr>
+<Id typref="2701647786" value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:5:1:1:1">
+<Attr>
+<Pos c="17" l="25" s="9"/>
+</Attr>
+</Id>
+<Id typref="3603043417" value="NAT1" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:5:1:1:2">
+<Attr>
+<Pos c="29" l="25" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Tag>WellDefinednessInitialisation</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Exp_Comparison op=":">
+<Binary_Exp op="|-&gt;">
+<Integer_Literal typref="2701647786" value="1" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:6:1:2:1:2:1">
+<Attr>
+<Pos c="39" l="29" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal typref="2701647786" value="7" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:6:1:2:1:2:2">
+<Attr>
+<Pos c="42" l="29" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Unary_Exp op="dom">
+<Id typref="1884358727" value="random" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:6:1:2:1:1">
+<Attr>
+<Pos c="30" l="29" s="6"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Id typref="1884358727" value="random" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:6:1:2:1:1">
+<Attr>
+<Pos c="30" l="29" s="6"/>
+</Attr>
+</Id>
+<Binary_Exp op="+-&gt;">
+<Unary_Exp op="dom">
+<Id typref="1884358727" value="random" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:6:1:2:1:1">
+<Attr>
+<Pos c="30" l="29" s="6"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Unary_Exp op="ran">
+<Id typref="1884358727" value="random" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:6:1:2:1:1">
+<Attr>
+<Pos c="30" l="29" s="6"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Binary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_rollDice</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;"/>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_rollDice</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Exp_Comparison op=":">
+<Binary_Exp op="|-&gt;">
+<Integer_Literal typref="2701647786" value="1" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:7:1:1:1:2:1:2:1">
+<Attr>
+<Pos c="47" l="35" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal typref="2701647786" value="7" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:7:1:1:1:2:1:2:2">
+<Attr>
+<Pos c="50" l="35" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Unary_Exp op="dom">
+<Id typref="1884358727" value="random" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:7:1:1:1:2:1:1">
+<Attr>
+<Pos c="38" l="35" s="6"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Id typref="1884358727" value="random" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:7:1:1:1:2:1:1">
+<Attr>
+<Pos c="38" l="35" s="6"/>
+</Attr>
+</Id>
+<Binary_Exp op="+-&gt;">
+<Unary_Exp op="dom">
+<Id typref="1884358727" value="random" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:7:1:1:1:2:1:1">
+<Attr>
+<Pos c="38" l="35" s="6"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Unary_Exp op="ran">
+<Id typref="1884358727" value="random" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:7:1:1:1:2:1:1">
+<Attr>
+<Pos c="38" l="35" s="6"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Binary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<TypeInfos>
+<Type id="3603043417">
+<Unary_Exp op="POW">
+<Id value="INTEGER" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:8:1:1:1"/>
+</Unary_Exp>
+</Type>
+<Type id="2701647786">
+<Id value="INTEGER" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:8:2:1"/>
+</Type>
+<Type id="1884358727">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:8:3:1:1:1:1"/>
+<Id value="INTEGER" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:8:3:1:1:1:2"/>
+</Binary_Exp>
+<Id value="INTEGER" tag="D:\ABProjects\Coursework2\bdp\Dice.bxml:1:8:3:1:1:2"/>
+</Binary_Exp>
+</Unary_Exp>
+</Type>
+<Type id="1884358727">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:5:1:1:1:1:1"/>
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:5:1:1:1:1:2"/>
+</Binary_Exp>
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:5:1:1:1:2"/>
+</Binary_Exp>
+</Unary_Exp>
+</Type>
+<Type id="2134698876">
+<Unary_Exp op="POW">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:5:2:1:1:1:1:1"/>
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:5:2:1:1:1:1:2"/>
+</Binary_Exp>
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:5:2:1:1:1:2"/>
+</Binary_Exp>
+</Unary_Exp>
+</Unary_Exp>
+</Type>
+<Type id="103245008">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:5:3:1:1:1"/>
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:5:3:1:1:2"/>
+</Binary_Exp>
+</Unary_Exp>
+</Type>
+<Type id="3603043417">
+<Unary_Exp op="POW">
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:5:4:1:1"/>
+</Unary_Exp>
+</Type>
+<Type id="2701647786">
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\RandomLib.bxml:1:5:5:1"/>
+</Type>
+</TypeInfos>
+</Proof_Obligations>

@@ -1,0 +1,3726 @@
+<Proof_Obligations>
+<Define name="B definitions">
+<Nary_Pred op="&amp;">
+<Exp_Comparison op="=">
+<Id value="NAT"/>
+<Binary_Exp op="..">
+<Integer_Literal value="0"/>
+<Id value="MAXINT"/>
+</Binary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Id value="INT"/>
+<Binary_Exp op="..">
+<Id value="MININT"/>
+<Id value="MAXINT"/>
+</Binary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Define>
+<Define name="ctx">
+<Attr>
+<Pos c="5" s="10" l="19"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op="&lt;:">
+<Attr>
+<Pos c="23" s="2" l="21"/>
+</Attr>
+<Id value="board" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:1:1" typref="3603043417">
+<Attr>
+<Pos c="17" s="5" l="21"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:1:2" typref="3603043417">
+<Attr>
+<Pos c="26" s="4" l="21"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="23" s="1" l="22"/>
+</Attr>
+<Id value="board" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:2:1" typref="3603043417">
+<Attr>
+<Pos c="17" s="5" l="22"/>
+</Attr>
+</Id>
+<Binary_Exp op=".." typref="3603043417">
+<Attr>
+<Pos c="26" s="2" l="22"/>
+</Attr>
+<Integer_Literal value="1" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:2:2:1" typref="2701647786">
+<Attr>
+<Pos c="25" s="1" l="22"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="100" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:2:2:2" typref="2701647786">
+<Attr>
+<Pos c="28" s="3" l="22"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="16" s="1" l="25"/>
+</Attr>
+<Id value="snakes" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:3:1" typref="103245008">
+<Attr>
+<Pos c="9" s="6" l="25"/>
+</Attr>
+</Id>
+<Binary_Exp op=">+>" typref="3083833907">
+<Attr>
+<Pos c="24" s="3" l="25"/>
+</Attr>
+<Id value="board" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:3:2:1" typref="3603043417">
+<Attr>
+<Pos c="18" s="5" l="25"/>
+</Attr>
+</Id>
+<Id value="board" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:3:2:2" typref="3603043417">
+<Attr>
+<Pos c="28" s="5" l="25"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="24" s="1" l="26"/>
+</Attr>
+<Id value="snakes" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:4:1" typref="103245008">
+<Attr>
+<Pos c="17" s="6" l="26"/>
+</Attr>
+</Id>
+<Nary_Exp op="{" typref="103245008">
+<Attr>
+<Pos c="26" s="1" l="26"/>
+</Attr>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos c="31" s="3" l="26"/>
+</Attr>
+<Integer_Literal value="31" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:4:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="28" s="2" l="26"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="4" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:4:2:1:2" typref="2701647786">
+<Attr>
+<Pos c="35" s="1" l="26"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos c="41" s="3" l="26"/>
+</Attr>
+<Integer_Literal value="16" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:4:2:2:1" typref="2701647786">
+<Attr>
+<Pos c="38" s="2" l="26"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="13" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:4:2:2:2" typref="2701647786">
+<Attr>
+<Pos c="45" s="2" l="26"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos c="52" s="3" l="26"/>
+</Attr>
+<Integer_Literal value="47" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:4:2:3:1" typref="2701647786">
+<Attr>
+<Pos c="49" s="2" l="26"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="25" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:4:2:3:2" typref="2701647786">
+<Attr>
+<Pos c="56" s="2" l="26"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos c="63" s="3" l="26"/>
+</Attr>
+<Integer_Literal value="66" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:4:2:4:1" typref="2701647786">
+<Attr>
+<Pos c="60" s="2" l="26"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="52" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:4:2:4:2" typref="2701647786">
+<Attr>
+<Pos c="67" s="2" l="26"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos c="74" s="3" l="26"/>
+</Attr>
+<Integer_Literal value="63" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:4:2:5:1" typref="2701647786">
+<Attr>
+<Pos c="71" s="2" l="26"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="60" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:4:2:5:2" typref="2701647786">
+<Attr>
+<Pos c="78" s="2" l="26"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos c="85" s="3" l="26"/>
+</Attr>
+<Integer_Literal value="97" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:4:2:6:1" typref="2701647786">
+<Attr>
+<Pos c="82" s="2" l="26"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="75" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:4:2:6:2" typref="2701647786">
+<Attr>
+<Pos c="89" s="2" l="26"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Nary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="25" s="1" l="27"/>
+</Attr>
+<Unary_Exp op="card" typref="2701647786">
+<Attr>
+<Pos c="9" s="4" l="27"/>
+</Attr>
+<Id value="snakes" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:5:1:1" typref="103245008">
+<Attr>
+<Pos c="16" s="6" l="27"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Integer_Literal value="6" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:5:2" typref="2701647786">
+<Attr>
+<Pos c="27" s="1" l="27"/>
+</Attr>
+</Integer_Literal>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="42" s="1" l="28"/>
+</Attr>
+<Binary_Exp op="/\" typref="3603043417">
+<Attr>
+<Pos c="24" s="2" l="28"/>
+</Attr>
+<Unary_Exp op="dom" typref="3603043417">
+<Attr>
+<Pos c="9" s="3" l="28"/>
+</Attr>
+<Id value="snakes" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:6:1:1:1" typref="103245008">
+<Attr>
+<Pos c="15" s="6" l="28"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Unary_Exp op="ran" typref="3603043417">
+<Attr>
+<Pos c="27" s="3" l="28"/>
+</Attr>
+<Id value="snakes" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:6:1:2:1" typref="103245008">
+<Attr>
+<Pos c="33" s="6" l="28"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Binary_Exp>
+<EmptySet tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:6:2" typref="3817003670">
+<Attr>
+<Pos c="44" s="2" l="28"/>
+</Attr>
+</EmptySet>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="25" s="1" l="31"/>
+</Attr>
+<Id value="ladders" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:7:1" typref="103245008">
+<Attr>
+<Pos c="17" s="7" l="31"/>
+</Attr>
+</Id>
+<Binary_Exp op=">+>" typref="3083833907">
+<Attr>
+<Pos c="33" s="3" l="31"/>
+</Attr>
+<Id value="board" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:7:2:1" typref="3603043417">
+<Attr>
+<Pos c="27" s="5" l="31"/>
+</Attr>
+</Id>
+<Id value="board" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:7:2:2" typref="3603043417">
+<Attr>
+<Pos c="37" s="5" l="31"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="25" s="1" l="32"/>
+</Attr>
+<Id value="ladders" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:8:1" typref="103245008">
+<Attr>
+<Pos c="17" s="7" l="32"/>
+</Attr>
+</Id>
+<Nary_Exp op="{" typref="103245008">
+<Attr>
+<Pos c="27" s="1" l="32"/>
+</Attr>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos c="31" s="3" l="32"/>
+</Attr>
+<Integer_Literal value="3" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:8:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="29" s="1" l="32"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="39" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:8:2:1:2" typref="2701647786">
+<Attr>
+<Pos c="35" s="2" l="32"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos c="42" s="3" l="32"/>
+</Attr>
+<Integer_Literal value="10" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:8:2:2:1" typref="2701647786">
+<Attr>
+<Pos c="39" s="2" l="32"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="12" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:8:2:2:2" typref="2701647786">
+<Attr>
+<Pos c="46" s="2" l="32"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos c="53" s="3" l="32"/>
+</Attr>
+<Integer_Literal value="27" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:8:2:3:1" typref="2701647786">
+<Attr>
+<Pos c="50" s="2" l="32"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="53" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:8:2:3:2" typref="2701647786">
+<Attr>
+<Pos c="57" s="2" l="32"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos c="64" s="3" l="32"/>
+</Attr>
+<Integer_Literal value="56" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:8:2:4:1" typref="2701647786">
+<Attr>
+<Pos c="61" s="2" l="32"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="84" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:8:2:4:2" typref="2701647786">
+<Attr>
+<Pos c="68" s="2" l="32"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos c="75" s="3" l="32"/>
+</Attr>
+<Integer_Literal value="61" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:8:2:5:1" typref="2701647786">
+<Attr>
+<Pos c="72" s="2" l="32"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="99" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:8:2:5:2" typref="2701647786">
+<Attr>
+<Pos c="79" s="2" l="32"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos c="86" s="3" l="32"/>
+</Attr>
+<Integer_Literal value="74" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:8:2:6:1" typref="2701647786">
+<Attr>
+<Pos c="83" s="2" l="32"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="90" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:8:2:6:2" typref="2701647786">
+<Attr>
+<Pos c="90" s="2" l="32"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Nary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="26" s="1" l="33"/>
+</Attr>
+<Unary_Exp op="card" typref="2701647786">
+<Attr>
+<Pos c="9" s="4" l="33"/>
+</Attr>
+<Id value="ladders" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:9:1:1" typref="103245008">
+<Attr>
+<Pos c="16" s="7" l="33"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Integer_Literal value="6" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:9:2" typref="2701647786">
+<Attr>
+<Pos c="28" s="1" l="33"/>
+</Attr>
+</Integer_Literal>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="44" s="1" l="34"/>
+</Attr>
+<Binary_Exp op="/\" typref="3603043417">
+<Attr>
+<Pos c="25" s="2" l="34"/>
+</Attr>
+<Unary_Exp op="dom" typref="3603043417">
+<Attr>
+<Pos c="9" s="3" l="34"/>
+</Attr>
+<Id value="ladders" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:10:1:1:1" typref="103245008">
+<Attr>
+<Pos c="15" s="7" l="34"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Unary_Exp op="ran" typref="3603043417">
+<Attr>
+<Pos c="28" s="3" l="34"/>
+</Attr>
+<Id value="ladders" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:10:1:2:1" typref="103245008">
+<Attr>
+<Pos c="34" s="7" l="34"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Binary_Exp>
+<EmptySet tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:10:2" typref="3817003670">
+<Attr>
+<Pos c="46" s="2" l="34"/>
+</Attr>
+</EmptySet>
+</Exp_Comparison>
+<Exp_Comparison op="&lt;:">
+<Attr>
+<Pos c="31" s="2" l="37"/>
+</Attr>
+<Id value="normalSquares" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:11:1" typref="3603043417">
+<Attr>
+<Pos c="17" s="13" l="37"/>
+</Attr>
+</Id>
+<Id value="board" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:11:2" typref="3603043417">
+<Attr>
+<Pos c="34" s="5" l="37"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="49" s="1" l="38"/>
+</Attr>
+<Binary_Exp op="/\" typref="3603043417">
+<Attr>
+<Pos c="31" s="2" l="38"/>
+</Attr>
+<Id value="normalSquares" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:12:1:1" typref="3603043417">
+<Attr>
+<Pos c="17" s="13" l="38"/>
+</Attr>
+</Id>
+<Unary_Exp op="dom" typref="3603043417">
+<Attr>
+<Pos c="34" s="3" l="38"/>
+</Attr>
+<Id value="snakes" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:12:1:2:1" typref="103245008">
+<Attr>
+<Pos c="40" s="6" l="38"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Binary_Exp>
+<EmptySet tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:12:2" typref="3817003670">
+<Attr>
+<Pos c="51" s="2" l="38"/>
+</Attr>
+</EmptySet>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="49" s="1" l="39"/>
+</Attr>
+<Binary_Exp op="/\" typref="3603043417">
+<Attr>
+<Pos c="31" s="2" l="39"/>
+</Attr>
+<Id value="normalSquares" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:13:1:1" typref="3603043417">
+<Attr>
+<Pos c="17" s="13" l="39"/>
+</Attr>
+</Id>
+<Unary_Exp op="ran" typref="3603043417">
+<Attr>
+<Pos c="34" s="3" l="39"/>
+</Attr>
+<Id value="snakes" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:13:1:2:1" typref="103245008">
+<Attr>
+<Pos c="40" s="6" l="39"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Binary_Exp>
+<EmptySet tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:13:2" typref="3817003670">
+<Attr>
+<Pos c="51" s="2" l="39"/>
+</Attr>
+</EmptySet>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="50" s="1" l="40"/>
+</Attr>
+<Binary_Exp op="/\" typref="3603043417">
+<Attr>
+<Pos c="31" s="2" l="40"/>
+</Attr>
+<Id value="normalSquares" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:14:1:1" typref="3603043417">
+<Attr>
+<Pos c="17" s="13" l="40"/>
+</Attr>
+</Id>
+<Unary_Exp op="dom" typref="3603043417">
+<Attr>
+<Pos c="34" s="3" l="40"/>
+</Attr>
+<Id value="ladders" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:14:1:2:1" typref="103245008">
+<Attr>
+<Pos c="40" s="7" l="40"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Binary_Exp>
+<EmptySet tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:14:2" typref="3817003670">
+<Attr>
+<Pos c="52" s="2" l="40"/>
+</Attr>
+</EmptySet>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="50" s="1" l="41"/>
+</Attr>
+<Binary_Exp op="/\" typref="3603043417">
+<Attr>
+<Pos c="31" s="2" l="41"/>
+</Attr>
+<Id value="normalSquares" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:15:1:1" typref="3603043417">
+<Attr>
+<Pos c="17" s="13" l="41"/>
+</Attr>
+</Id>
+<Unary_Exp op="ran" typref="3603043417">
+<Attr>
+<Pos c="34" s="3" l="41"/>
+</Attr>
+<Id value="ladders" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:15:1:2:1" typref="103245008">
+<Attr>
+<Pos c="40" s="7" l="41"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Binary_Exp>
+<EmptySet tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:15:2" typref="3817003670">
+<Attr>
+<Pos c="52" s="2" l="41"/>
+</Attr>
+</EmptySet>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="105" s="1" l="42"/>
+</Attr>
+<Binary_Exp op="\/" typref="3603043417">
+<Attr>
+<Pos c="86" s="2" l="42"/>
+</Attr>
+<Binary_Exp op="\/" typref="3603043417">
+<Attr>
+<Pos c="67" s="2" l="42"/>
+</Attr>
+<Binary_Exp op="\/" typref="3603043417">
+<Attr>
+<Pos c="49" s="2" l="42"/>
+</Attr>
+<Binary_Exp op="\/" typref="3603043417">
+<Attr>
+<Pos c="31" s="2" l="42"/>
+</Attr>
+<Id value="normalSquares" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:16:1:1:1:1:1" typref="3603043417">
+<Attr>
+<Pos c="17" s="13" l="42"/>
+</Attr>
+</Id>
+<Unary_Exp op="dom" typref="3603043417">
+<Attr>
+<Pos c="34" s="3" l="42"/>
+</Attr>
+<Id value="snakes" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:16:1:1:1:1:2:1" typref="103245008">
+<Attr>
+<Pos c="40" s="6" l="42"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Binary_Exp>
+<Unary_Exp op="ran" typref="3603043417">
+<Attr>
+<Pos c="52" s="3" l="42"/>
+</Attr>
+<Id value="snakes" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:16:1:1:1:2:1" typref="103245008">
+<Attr>
+<Pos c="58" s="6" l="42"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Binary_Exp>
+<Unary_Exp op="dom" typref="3603043417">
+<Attr>
+<Pos c="70" s="3" l="42"/>
+</Attr>
+<Id value="ladders" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:16:1:1:2:1" typref="103245008">
+<Attr>
+<Pos c="76" s="7" l="42"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Binary_Exp>
+<Unary_Exp op="ran" typref="3603043417">
+<Attr>
+<Pos c="89" s="3" l="42"/>
+</Attr>
+<Id value="ladders" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:16:1:2:1" typref="103245008">
+<Attr>
+<Pos c="95" s="7" l="42"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Binary_Exp>
+<Id value="board" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:16:2" typref="3603043417">
+<Attr>
+<Pos c="107" s="5" l="42"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="29" s="1" l="45"/>
+</Attr>
+<Id value="startSquare" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:17:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="11" l="45"/>
+</Attr>
+</Id>
+<Id value="board" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:17:2" typref="3603043417">
+<Attr>
+<Pos c="31" s="5" l="45"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="29" s="1" l="46"/>
+</Attr>
+<Id value="startSquare" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:18:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="11" l="46"/>
+</Attr>
+</Id>
+<Id value="normalSquares" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:18:2" typref="3603043417">
+<Attr>
+<Pos c="31" s="13" l="46"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="29" s="1" l="47"/>
+</Attr>
+<Id value="startSquare" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:19:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="11" l="47"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:19:2" typref="2701647786">
+<Attr>
+<Pos c="31" s="1" l="47"/>
+</Attr>
+</Integer_Literal>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="30" s="1" l="50"/>
+</Attr>
+<Id value="finishSquare" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:20:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="12" l="50"/>
+</Attr>
+</Id>
+<Id value="board" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:20:2" typref="3603043417">
+<Attr>
+<Pos c="32" s="5" l="50"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="30" s="1" l="51"/>
+</Attr>
+<Id value="finishSquare" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:21:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="12" l="51"/>
+</Attr>
+</Id>
+<Id value="normalSquares" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:21:2" typref="3603043417">
+<Attr>
+<Pos c="32" s="13" l="51"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="30" s="1" l="52"/>
+</Attr>
+<Id value="finishSquare" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:22:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="12" l="52"/>
+</Attr>
+</Id>
+<Integer_Literal value="100" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:2:1:22:2" typref="2701647786">
+<Attr>
+<Pos c="32" s="3" l="52"/>
+</Attr>
+</Integer_Literal>
+</Exp_Comparison>
+</Nary_Pred>
+</Define>
+<Define name="seext"/>
+<Define name="lprp">
+<Attr>
+<Pos c="9" s="4" l="24"/>
+</Attr>
+<Set>
+<Id value="MOVEMENT_REPORT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:3:1:1" typref="4198551967">
+<Attr>
+<Pos c="9" s="15" l="25"/>
+</Attr>
+</Id>
+<Enumerated_Values>
+<Id value="WentDownASnake" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:3:1:2:1" typref="3618780388">
+<Attr>
+<Pos c="29" s="14" l="25"/>
+</Attr>
+</Id>
+<Id value="WentUpALadder" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:3:1:2:2" typref="3618780388">
+<Attr>
+<Pos c="45" s="13" l="25"/>
+</Attr>
+</Id>
+<Id value="NoMovementNewPositionGreaterThenHundred" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:3:1:2:3" typref="3618780388">
+<Attr>
+<Pos c="60" s="39" l="25"/>
+</Attr>
+</Id>
+<Id value="GameWon" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:3:1:2:4" typref="3618780388">
+<Attr>
+<Pos c="101" s="7" l="25"/>
+</Attr>
+</Id>
+<Id value="LandedOnANormalSquare" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:3:1:2:5" typref="3618780388">
+<Attr>
+<Pos c="110" s="21" l="25"/>
+</Attr>
+</Id>
+<Id value="StartingNewGame" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:3:1:2:6" typref="3618780388">
+<Attr>
+<Pos c="133" s="15" l="25"/>
+</Attr>
+</Id>
+</Enumerated_Values>
+</Set>
+</Define>
+<Define name="inprp">
+<Attr>
+<Pos c="5" s="10" l="17"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op="&lt;:">
+<Attr>
+<Pos c="22" s="2" l="18"/>
+</Attr>
+<Id value="dice" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:4:1:1:1" typref="3603043417">
+<Attr>
+<Pos c="17" s="4" l="18"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:4:1:1:2" typref="3603043417">
+<Attr>
+<Pos c="25" s="4" l="18"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="22" s="1" l="19"/>
+</Attr>
+<Id value="dice" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:4:1:2:1" typref="3603043417">
+<Attr>
+<Pos c="17" s="4" l="19"/>
+</Attr>
+</Id>
+<Binary_Exp op=".." typref="3603043417">
+<Attr>
+<Pos c="25" s="2" l="19"/>
+</Attr>
+<Integer_Literal value="1" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:4:1:2:2:1" typref="2701647786">
+<Attr>
+<Pos c="24" s="1" l="19"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="6" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:4:1:2:2:2" typref="2701647786">
+<Attr>
+<Pos c="27" s="1" l="19"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Define>
+<Define name="inext">
+<Attr>
+<Pos c="9" s="9" l="24"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison initialTag="((diceValue) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos c="27" s="1" l="25"/>
+</Attr>
+<Id value="diceValue" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:5:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="9" l="25"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:5:1:1:2" typref="3603043417">
+<Attr>
+<Pos c="29" s="4" l="25"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((diceValue) : (dice))" op=":">
+<Attr>
+<Pos c="27" s="1" l="26"/>
+</Attr>
+<Id value="diceValue" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:5:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="9" l="26"/>
+</Attr>
+</Id>
+<Id value="dice" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:5:1:2:2" typref="3603043417">
+<Attr>
+<Pos c="29" s="4" l="26"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Define>
+<Define name="inv">
+<Attr>
+<Pos c="9" s="9" l="34"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison initialTag="((currentPosition) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos c="33" s="1" l="35"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="15" l="35"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:1:2" typref="3603043417">
+<Attr>
+<Pos c="35" s="4" l="35"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((currentPosition) : (board))" op=":">
+<Attr>
+<Pos c="33" s="1" l="36"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="15" l="36"/>
+</Attr>
+</Id>
+<Id value="board" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:2:2" typref="3603043417">
+<Attr>
+<Pos c="35" s="5" l="36"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((noOfSnakesEncountered) : (NAT))" op=":">
+<Attr>
+<Pos c="39" s="1" l="37"/>
+</Attr>
+<Id value="noOfSnakesEncountered" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:3:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="21" l="37"/>
+</Attr>
+</Id>
+<Id value="NAT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:3:2" typref="3603043417">
+<Attr>
+<Pos c="41" s="3" l="37"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((noOfLaddersEncountered) : (NAT))" op=":">
+<Attr>
+<Pos c="40" s="1" l="38"/>
+</Attr>
+<Id value="noOfLaddersEncountered" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:4:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="22" l="38"/>
+</Attr>
+</Id>
+<Id value="NAT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:4:2" typref="3603043417">
+<Attr>
+<Pos c="42" s="3" l="38"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((noOfTurnsTaken) : (NAT))" op=":">
+<Attr>
+<Pos c="32" s="1" l="39"/>
+</Attr>
+<Id value="noOfTurnsTaken" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:5:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="14" l="39"/>
+</Attr>
+</Id>
+<Id value="NAT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:5:2" typref="3603043417">
+<Attr>
+<Pos c="34" s="3" l="39"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((visitedSquares) : (seq(board)))" op=":">
+<Attr>
+<Pos c="32" s="1" l="40"/>
+</Attr>
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:6:1" typref="103245008">
+<Attr>
+<Pos c="17" s="14" l="40"/>
+</Attr>
+</Id>
+<Unary_Exp op="seq" typref="3083833907">
+<Attr>
+<Pos c="34" s="3" l="40"/>
+</Attr>
+<Id value="board" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:6:2:1" typref="3603043417">
+<Attr>
+<Pos c="40" s="5" l="40"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Define>
+<Define name="ass"/>
+<Define name="cst"/>
+<Proof_Obligation>
+<Comment>Inclusion dans une machine abstraite</Comment>
+<Tag>InstanciatedConstraintsLemmas</Tag>
+<Tag>CONSTRAINTS</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Inclusion dans une machine abstraite</Comment>
+<Tag>InstanciatedConstraintsLemmas</Tag>
+<Tag>CONSTRAINTS</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Initialisation dans une machine abstraite</Comment>
+<Tag>Initialisation</Tag>
+<Tag>Invariant</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Local_Hyp num="1">
+<Nary_Pred op="&amp;">
+<Attr>
+<Pos c="9" s="9" l="24"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison initialTag="((diceValue) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos c="27" s="1" l="25"/>
+</Attr>
+<Binary_Exp tag=",D:/ABProjects/Coursework2/bdp\Dice.bxml:1:5:1:1:1,D:/ABProjects/Coursework2/bdp\Dice.bxml:1:6:1:1:1" op="(" typref="2701647786">
+<Attr>
+<Pos c="17" s="9" l="29"/>
+</Attr>
+<Id value="random" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:6:1:2:1:1" typref="1884358727">
+<Attr>
+<Pos c="30" s="6" l="29"/>
+</Attr>
+</Id>
+<Binary_Exp op="|->">
+<Integer_Literal value="1" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:6:1:2:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="39" s="1" l="29"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="7" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:6:1:2:1:2:2" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" l="29"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="NAT1" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:5:1:1:2" typref="3603043417">
+<Attr>
+<Pos c="29" s="4" l="25"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((diceValue) : (dice))" op=":">
+<Attr>
+<Pos c="27" s="1" l="26"/>
+</Attr>
+<Binary_Exp tag=",D:/ABProjects/Coursework2/bdp\Dice.bxml:1:5:1:2:1,D:/ABProjects/Coursework2/bdp\Dice.bxml:1:6:1:1:1" op="(" typref="2701647786">
+<Attr>
+<Pos c="17" s="9" l="29"/>
+</Attr>
+<Id value="random" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:6:1:2:1:1" typref="1884358727">
+<Attr>
+<Pos c="30" s="6" l="29"/>
+</Attr>
+</Id>
+<Binary_Exp op="|->">
+<Integer_Literal value="1" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:6:1:2:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="39" s="1" l="29"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="7" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:6:1:2:1:2:2" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" l="29"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="dice" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:5:1:2:2" typref="3603043417">
+<Attr>
+<Pos c="29" s="4" l="26"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+</Local_Hyp>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Ref_Hyp num="1"/>
+<Exp_Comparison initialTag="((currentPosition) : ((NAT-{0})))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="33" s="1" l="35"/>
+</Attr>
+<Integer_Literal value="1" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:6:1:1:2:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:1:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:6:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="15" l="45"/>
+</Attr>
+</Integer_Literal>
+<Id value="NAT1" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:1:2" typref="3603043417">
+<Attr>
+<Pos c="35" s="4" l="35"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Ref_Hyp num="1"/>
+<Exp_Comparison initialTag="((currentPosition) : (board))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="33" s="1" l="36"/>
+</Attr>
+<Integer_Literal value="1" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:6:1:1:2:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:2:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:6:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="15" l="45"/>
+</Attr>
+</Integer_Literal>
+<Id value="board" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:2:2" typref="3603043417">
+<Attr>
+<Pos c="35" s="5" l="36"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Ref_Hyp num="1"/>
+<Exp_Comparison initialTag="((noOfSnakesEncountered) : (NAT))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="39" s="1" l="37"/>
+</Attr>
+<Integer_Literal value="0" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:6:1:2:2:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:3:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:6:1:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="21" l="46"/>
+</Attr>
+</Integer_Literal>
+<Id value="NAT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:3:2" typref="3603043417">
+<Attr>
+<Pos c="41" s="3" l="37"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Ref_Hyp num="1"/>
+<Exp_Comparison initialTag="((visitedSquares) : (seq(board)))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="32" s="1" l="40"/>
+</Attr>
+<Nary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:6:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:6:1:5:1:1" op="[" typref="103245008">
+<Attr>
+<Pos c="17" s="14" l="49"/>
+</Attr>
+<Id value="startSquare" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:6:1:5:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="37" s="11" l="49"/>
+</Attr>
+</Id>
+</Nary_Exp>
+<Unary_Exp op="seq" typref="3083833907">
+<Attr>
+<Pos c="34" s="3" l="40"/>
+</Attr>
+<Id value="board" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:6:2:1" typref="3603043417">
+<Attr>
+<Pos c="40" s="5" l="40"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>Move</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="20" s="1" l="55"/>
+</Attr>
+<Id value="report" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:2:1:1:1" typref="3618780388">
+<Attr>
+<Pos c="13" s="6" l="55"/>
+</Attr>
+</Id>
+<Id value="MOVEMENT_REPORT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:2:1:1:2" typref="4198551967">
+<Attr>
+<Pos c="22" s="15" l="55"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="34" s="1" l="56"/>
+</Attr>
+<Id value="position" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:2:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="25" s="8" l="56"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:2:1:2:2" typref="3603043417">
+<Attr>
+<Pos c="36" s="4" l="56"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Hypothesis>
+<Local_Hyp num="1">
+<Nary_Pred op="&amp;"/>
+</Local_Hyp>
+<Local_Hyp num="2">
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="41" s="1" expanded="yes" l="13"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Unary_Exp op="dom" typref="3603043417">
+<Attr>
+<Pos c="43" s="3" expanded="yes" l="13"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+<Id value="snakes" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:1:1:2:1" typref="103245008">
+<Attr>
+<Pos c="49" s="6" expanded="yes" l="13"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="3">
+<Nary_Pred op="&amp;"/>
+</Local_Hyp>
+<Local_Hyp num="4">
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="44" s="1" expanded="yes" l="14"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Unary_Exp op="dom" typref="3603043417">
+<Attr>
+<Pos c="46" s="3" expanded="yes" l="14"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+<Id value="ladders" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:1:1:2:1" typref="103245008">
+<Attr>
+<Pos c="52" s="7" expanded="yes" l="14"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="5">
+<Nary_Pred op="&amp;"/>
+</Local_Hyp>
+<Local_Hyp num="6">
+<Exp_Comparison op=">">
+<Attr>
+<Pos c="47" s="1" expanded="yes" l="15"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="finishSquare" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="49" s="12" expanded="yes" l="15"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="7">
+<Nary_Pred op="&amp;"/>
+</Local_Hyp>
+<Local_Hyp num="8">
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="33" s="1" expanded="yes" l="16"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="finishSquare" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="35" s="12" expanded="yes" l="16"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="9">
+<Nary_Pred op="&amp;"/>
+</Local_Hyp>
+<Local_Hyp num="10">
+<Unary_Pred op="not">
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="33" s="1" expanded="yes" l="16"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="finishSquare" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="35" s="12" expanded="yes" l="16"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+</Local_Hyp>
+<Local_Hyp num="11">
+<Unary_Pred op="not">
+<Exp_Comparison op=">">
+<Attr>
+<Pos c="47" s="1" expanded="yes" l="15"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="finishSquare" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="49" s="12" expanded="yes" l="15"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+</Local_Hyp>
+<Local_Hyp num="12">
+<Unary_Pred op="not">
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="44" s="1" expanded="yes" l="14"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Unary_Exp op="dom" typref="3603043417">
+<Attr>
+<Pos c="46" s="3" expanded="yes" l="14"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+<Id value="ladders" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:1:1:2:1" typref="103245008">
+<Attr>
+<Pos c="52" s="7" expanded="yes" l="14"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Unary_Pred>
+</Local_Hyp>
+<Local_Hyp num="13">
+<Unary_Pred op="not">
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="41" s="1" expanded="yes" l="13"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Unary_Exp op="dom" typref="3603043417">
+<Attr>
+<Pos c="43" s="3" expanded="yes" l="13"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+<Id value="snakes" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:1:1:2:1" typref="103245008">
+<Attr>
+<Pos c="49" s="6" expanded="yes" l="13"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Unary_Pred>
+</Local_Hyp>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="2"/>
+<Ref_Hyp num="1"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((currentPosition) : ((NAT-{0})))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="33" s="1" l="35"/>
+</Attr>
+<Binary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:1:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:1:1:1" op="(" typref="2701647786">
+<Attr>
+<Pos c="17" s="15" l="65"/>
+</Attr>
+<Id value="snakes" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:1:2:1:1" typref="103245008">
+<Attr>
+<Pos c="36" s="6" l="65"/>
+</Attr>
+</Id>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="45" s="11" l="65"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:1:2:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="45" s="11" l="65"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:1:2:1:2:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="45" s="11" l="65"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="NAT1" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:1:2" typref="3603043417">
+<Attr>
+<Pos c="35" s="4" l="35"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="2"/>
+<Ref_Hyp num="1"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((currentPosition) : (board))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="33" s="1" l="36"/>
+</Attr>
+<Binary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:2:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:1:1:1" op="(" typref="2701647786">
+<Attr>
+<Pos c="17" s="15" l="65"/>
+</Attr>
+<Id value="snakes" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:1:2:1:1" typref="103245008">
+<Attr>
+<Pos c="36" s="6" l="65"/>
+</Attr>
+</Id>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="45" s="11" l="65"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:1:2:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="45" s="11" l="65"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:1:2:1:2:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="45" s="11" l="65"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="board" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:2:2" typref="3603043417">
+<Attr>
+<Pos c="35" s="5" l="36"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="2"/>
+<Ref_Hyp num="1"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((noOfSnakesEncountered) : (NAT))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="39" s="1" l="37"/>
+</Attr>
+<Unary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:3:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:2:1:1" op="succ" typref="2701647786">
+<Attr>
+<Pos c="17" s="21" l="66"/>
+</Attr>
+<Id value="noOfSnakesEncountered" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:2:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="49" s="21" l="66"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Id value="NAT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:3:2" typref="3603043417">
+<Attr>
+<Pos c="41" s="3" l="37"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="2"/>
+<Ref_Hyp num="1"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((noOfTurnsTaken) : (NAT))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="32" s="1" l="39"/>
+</Attr>
+<Unary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:5:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:3:1:1" op="succ" typref="2701647786">
+<Attr>
+<Pos c="17" s="14" l="67"/>
+</Attr>
+<Id value="noOfTurnsTaken" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:3:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="42" s="14" l="67"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Id value="NAT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:5:2" typref="3603043417">
+<Attr>
+<Pos c="34" s="3" l="39"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="2"/>
+<Ref_Hyp num="1"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((visitedSquares) : (seq(board)))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="32" s="1" l="40"/>
+</Attr>
+<Binary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:6:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:4:1:1" op="&lt;-" typref="103245008">
+<Attr>
+<Pos c="17" s="14" l="68"/>
+</Attr>
+<Binary_Exp op="&lt;-" typref="103245008">
+<Attr>
+<Pos c="50" s="2" l="68"/>
+</Attr>
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:4:2:1:1:1" typref="103245008">
+<Attr>
+<Pos c="35" s="14" l="68"/>
+</Attr>
+</Id>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="68"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:4:2:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="68"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:4:2:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="68"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+<Binary_Exp op="(" typref="2701647786">
+<Attr>
+<Pos c="81" s="0" l="68"/>
+</Attr>
+<Id value="snakes" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:4:2:1:2:1" typref="103245008">
+<Attr>
+<Pos c="74" s="6" l="68"/>
+</Attr>
+</Id>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="83" s="11" l="68"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:4:2:1:2:2:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="83" s="11" l="68"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:4:2:1:2:2:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="83" s="11" l="68"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+</Binary_Exp>
+<Unary_Exp op="seq" typref="3083833907">
+<Attr>
+<Pos c="34" s="3" l="40"/>
+</Attr>
+<Id value="board" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:6:2:1" typref="3603043417">
+<Attr>
+<Pos c="40" s="5" l="40"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="13"/>
+<Ref_Hyp num="4"/>
+<Ref_Hyp num="3"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((currentPosition) : ((NAT-{0})))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="33" s="1" l="35"/>
+</Attr>
+<Binary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:1:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:1:1:1" op="(" typref="2701647786">
+<Attr>
+<Pos c="17" s="15" l="76"/>
+</Attr>
+<Id value="ladders" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:1:2:1:1" typref="103245008">
+<Attr>
+<Pos c="36" s="7" l="76"/>
+</Attr>
+</Id>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="46" s="11" l="76"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:1:2:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="46" s="11" l="76"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:1:2:1:2:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="46" s="11" l="76"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="NAT1" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:1:2" typref="3603043417">
+<Attr>
+<Pos c="35" s="4" l="35"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="13"/>
+<Ref_Hyp num="4"/>
+<Ref_Hyp num="3"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((currentPosition) : (board))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="33" s="1" l="36"/>
+</Attr>
+<Binary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:2:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:1:1:1" op="(" typref="2701647786">
+<Attr>
+<Pos c="17" s="15" l="76"/>
+</Attr>
+<Id value="ladders" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:1:2:1:1" typref="103245008">
+<Attr>
+<Pos c="36" s="7" l="76"/>
+</Attr>
+</Id>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="46" s="11" l="76"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:1:2:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="46" s="11" l="76"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:1:2:1:2:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="46" s="11" l="76"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="board" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:2:2" typref="3603043417">
+<Attr>
+<Pos c="35" s="5" l="36"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="13"/>
+<Ref_Hyp num="4"/>
+<Ref_Hyp num="3"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((noOfLaddersEncountered) : (NAT))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="40" s="1" l="38"/>
+</Attr>
+<Unary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:4:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:4:1:1" op="succ" typref="2701647786">
+<Attr>
+<Pos c="17" s="22" l="79"/>
+</Attr>
+<Id value="noOfLaddersEncountered" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:4:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="50" s="22" l="79"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Id value="NAT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:4:2" typref="3603043417">
+<Attr>
+<Pos c="42" s="3" l="38"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="13"/>
+<Ref_Hyp num="4"/>
+<Ref_Hyp num="3"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((noOfTurnsTaken) : (NAT))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="32" s="1" l="39"/>
+</Attr>
+<Unary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:5:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:2:1:1" op="succ" typref="2701647786">
+<Attr>
+<Pos c="17" s="14" l="77"/>
+</Attr>
+<Id value="noOfTurnsTaken" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:2:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="42" s="14" l="77"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Id value="NAT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:5:2" typref="3603043417">
+<Attr>
+<Pos c="34" s="3" l="39"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="13"/>
+<Ref_Hyp num="4"/>
+<Ref_Hyp num="3"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((visitedSquares) : (seq(board)))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="32" s="1" l="40"/>
+</Attr>
+<Binary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:6:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:3:1:1" op="&lt;-" typref="103245008">
+<Attr>
+<Pos c="17" s="14" l="78"/>
+</Attr>
+<Binary_Exp op="&lt;-" typref="103245008">
+<Attr>
+<Pos c="50" s="2" l="78"/>
+</Attr>
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:3:2:1:1:1" typref="103245008">
+<Attr>
+<Pos c="35" s="14" l="78"/>
+</Attr>
+</Id>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="78"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:3:2:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="78"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:3:2:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="78"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+<Binary_Exp op="(" typref="2701647786">
+<Attr>
+<Pos c="82" s="0" l="78"/>
+</Attr>
+<Id value="ladders" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:3:2:1:2:1" typref="103245008">
+<Attr>
+<Pos c="74" s="7" l="78"/>
+</Attr>
+</Id>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="84" s="11" l="78"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:3:2:1:2:2:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="84" s="11" l="78"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:3:2:1:2:2:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="84" s="11" l="78"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+</Binary_Exp>
+<Unary_Exp op="seq" typref="3083833907">
+<Attr>
+<Pos c="34" s="3" l="40"/>
+</Attr>
+<Id value="board" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:6:2:1" typref="3603043417">
+<Attr>
+<Pos c="40" s="5" l="40"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="13"/>
+<Ref_Hyp num="12"/>
+<Ref_Hyp num="11"/>
+<Ref_Hyp num="8"/>
+<Ref_Hyp num="7"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((currentPosition) : ((NAT-{0})))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="33" s="1" l="35"/>
+</Attr>
+<Binary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:1:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:2:1:1:1:1" op="+" typref="2701647786">
+<Attr>
+<Pos c="17" s="15" l="93"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:2:1:1:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="36" s="11" l="93"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:2:1:1:2:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="36" s="11" l="93"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="NAT1" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:1:2" typref="3603043417">
+<Attr>
+<Pos c="35" s="4" l="35"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="13"/>
+<Ref_Hyp num="12"/>
+<Ref_Hyp num="11"/>
+<Ref_Hyp num="8"/>
+<Ref_Hyp num="7"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((currentPosition) : (board))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="33" s="1" l="36"/>
+</Attr>
+<Binary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:2:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:2:1:1:1:1" op="+" typref="2701647786">
+<Attr>
+<Pos c="17" s="15" l="93"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:2:1:1:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="36" s="11" l="93"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:2:1:1:2:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="36" s="11" l="93"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="board" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:2:2" typref="3603043417">
+<Attr>
+<Pos c="35" s="5" l="36"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="13"/>
+<Ref_Hyp num="12"/>
+<Ref_Hyp num="11"/>
+<Ref_Hyp num="8"/>
+<Ref_Hyp num="7"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((noOfTurnsTaken) : (NAT))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="32" s="1" l="39"/>
+</Attr>
+<Unary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:5:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:2:1:2:1:1" op="succ" typref="2701647786">
+<Attr>
+<Pos c="17" s="14" l="94"/>
+</Attr>
+<Id value="noOfTurnsTaken" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:2:1:2:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="42" s="14" l="94"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Id value="NAT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:5:2" typref="3603043417">
+<Attr>
+<Pos c="34" s="3" l="39"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="13"/>
+<Ref_Hyp num="12"/>
+<Ref_Hyp num="11"/>
+<Ref_Hyp num="8"/>
+<Ref_Hyp num="7"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((visitedSquares) : (seq(board)))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="32" s="1" l="40"/>
+</Attr>
+<Binary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:6:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:2:1:3:1:1" op="&lt;-" typref="103245008">
+<Attr>
+<Pos c="17" s="14" l="95"/>
+</Attr>
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:2:1:3:2:1:1" typref="103245008">
+<Attr>
+<Pos c="35" s="14" l="95"/>
+</Attr>
+</Id>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="95"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:2:1:3:2:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="95"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:2:1:3:2:1:2:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="95"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+<Unary_Exp op="seq" typref="3083833907">
+<Attr>
+<Pos c="34" s="3" l="40"/>
+</Attr>
+<Id value="board" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:6:2:1" typref="3603043417">
+<Attr>
+<Pos c="40" s="5" l="40"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="13"/>
+<Ref_Hyp num="12"/>
+<Ref_Hyp num="11"/>
+<Ref_Hyp num="10"/>
+<Ref_Hyp num="9"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((currentPosition) : ((NAT-{0})))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="33" s="1" l="35"/>
+</Attr>
+<Binary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:1:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:3:1:1:1:1" op="+" typref="2701647786">
+<Attr>
+<Pos c="17" s="15" l="100"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:3:1:1:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="36" s="11" l="100"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:3:1:1:2:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="36" s="11" l="100"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="NAT1" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:1:2" typref="3603043417">
+<Attr>
+<Pos c="35" s="4" l="35"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="13"/>
+<Ref_Hyp num="12"/>
+<Ref_Hyp num="11"/>
+<Ref_Hyp num="10"/>
+<Ref_Hyp num="9"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((currentPosition) : (board))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="33" s="1" l="36"/>
+</Attr>
+<Binary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:2:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:3:1:1:1:1" op="+" typref="2701647786">
+<Attr>
+<Pos c="17" s="15" l="100"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:3:1:1:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="36" s="11" l="100"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:3:1:1:2:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="36" s="11" l="100"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="board" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:2:2" typref="3603043417">
+<Attr>
+<Pos c="35" s="5" l="36"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="13"/>
+<Ref_Hyp num="12"/>
+<Ref_Hyp num="11"/>
+<Ref_Hyp num="10"/>
+<Ref_Hyp num="9"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((noOfTurnsTaken) : (NAT))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="32" s="1" l="39"/>
+</Attr>
+<Unary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:5:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:3:1:2:1:1" op="succ" typref="2701647786">
+<Attr>
+<Pos c="17" s="14" l="101"/>
+</Attr>
+<Id value="noOfTurnsTaken" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:3:1:2:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="42" s="14" l="101"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Id value="NAT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:5:2" typref="3603043417">
+<Attr>
+<Pos c="34" s="3" l="39"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="13"/>
+<Ref_Hyp num="12"/>
+<Ref_Hyp num="11"/>
+<Ref_Hyp num="10"/>
+<Ref_Hyp num="9"/>
+</Nary_Pred>
+<Exp_Comparison initialTag="((visitedSquares) : (seq(board)))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="32" s="1" l="40"/>
+</Attr>
+<Binary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:6:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:3:1:3:1:1" op="&lt;-" typref="103245008">
+<Attr>
+<Pos c="17" s="14" l="102"/>
+</Attr>
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:3:1:3:2:1:1" typref="103245008">
+<Attr>
+<Pos c="35" s="14" l="102"/>
+</Attr>
+</Id>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="102"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:3:1:3:2:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="102"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:3:1:3:2:1:2:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="102"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+<Unary_Exp op="seq" typref="3083833907">
+<Attr>
+<Pos c="34" s="3" l="40"/>
+</Attr>
+<Id value="board" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:6:2:1" typref="3603043417">
+<Attr>
+<Pos c="40" s="5" l="40"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>GameStatistics</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Local_Hyp num="1">
+<Nary_Pred op="&amp;"/>
+</Local_Hyp>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>VisitedSquares</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Local_Hyp num="1">
+<Nary_Pred op="&amp;"/>
+</Local_Hyp>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>NewGame</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis>
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="32" s="1" l="126"/>
+</Attr>
+<Id value="report" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:2:1:1" typref="3618780388">
+<Attr>
+<Pos c="25" s="6" l="126"/>
+</Attr>
+</Id>
+<Id value="MOVEMENT_REPORT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:2:1:2" typref="4198551967">
+<Attr>
+<Pos c="34" s="15" l="126"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Hypothesis>
+<Local_Hyp num="1">
+<Nary_Pred op="&amp;"/>
+</Local_Hyp>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Ref_Hyp num="1"/>
+<Exp_Comparison initialTag="((currentPosition) : ((NAT-{0})))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="33" s="1" l="35"/>
+</Attr>
+<Integer_Literal value="1" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:3:1:2:2:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:1:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:3:1:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="25" s="15" l="131"/>
+</Attr>
+</Integer_Literal>
+<Id value="NAT1" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:1:2" typref="3603043417">
+<Attr>
+<Pos c="35" s="4" l="35"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Ref_Hyp num="1"/>
+<Exp_Comparison initialTag="((currentPosition) : (board))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="33" s="1" l="36"/>
+</Attr>
+<Integer_Literal value="1" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:3:1:2:2:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:2:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:3:1:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="25" s="15" l="131"/>
+</Attr>
+</Integer_Literal>
+<Id value="board" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:2:2" typref="3603043417">
+<Attr>
+<Pos c="35" s="5" l="36"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Ref_Hyp num="1"/>
+<Exp_Comparison initialTag="((noOfSnakesEncountered) : (NAT))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="39" s="1" l="37"/>
+</Attr>
+<Integer_Literal value="0" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:3:1:3:2:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:3:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:3:1:3:1:1" typref="2701647786">
+<Attr>
+<Pos c="25" s="21" l="132"/>
+</Attr>
+</Integer_Literal>
+<Id value="NAT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:3:2" typref="3603043417">
+<Attr>
+<Pos c="41" s="3" l="37"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Ref_Hyp num="1"/>
+<Exp_Comparison initialTag="((visitedSquares) : (seq(board)))" op=":" goalTag="Invariant is preserved">
+<Attr>
+<Pos c="32" s="1" l="40"/>
+</Attr>
+<Nary_Exp tag=",D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:6:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:3:1:6:1:1" op="[" typref="103245008">
+<Attr>
+<Pos c="25" s="14" l="135"/>
+</Attr>
+<Id value="startSquare" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:3:1:6:2:1:1" typref="2701647786">
+<Attr>
+<Pos c="45" s="11" l="135"/>
+</Attr>
+</Id>
+</Nary_Exp>
+<Unary_Exp op="seq" typref="3083833907">
+<Attr>
+<Pos c="34" s="3" l="40"/>
+</Attr>
+<Id value="board" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:6:2:1" typref="3603043417">
+<Attr>
+<Pos c="40" s="5" l="40"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Tag>WellDefinednessConstraints</Tag>
+</Proof_Obligation>
+<Proof_Obligation>
+<Tag>WellDefinednessProperties</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Hypothesis>
+<Attr>
+<Pos c="9" s="4" l="24"/>
+</Attr>
+<Set>
+<Id value="MOVEMENT_REPORT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:3:1:1" typref="4198551967">
+<Attr>
+<Pos c="9" s="15" l="25"/>
+</Attr>
+</Id>
+<Enumerated_Values>
+<Id value="WentDownASnake" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:3:1:2:1" typref="3618780388">
+<Attr>
+<Pos c="29" s="14" l="25"/>
+</Attr>
+</Id>
+<Id value="WentUpALadder" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:3:1:2:2" typref="3618780388">
+<Attr>
+<Pos c="45" s="13" l="25"/>
+</Attr>
+</Id>
+<Id value="NoMovementNewPositionGreaterThenHundred" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:3:1:2:3" typref="3618780388">
+<Attr>
+<Pos c="60" s="39" l="25"/>
+</Attr>
+</Id>
+<Id value="GameWon" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:3:1:2:4" typref="3618780388">
+<Attr>
+<Pos c="101" s="7" l="25"/>
+</Attr>
+</Id>
+<Id value="LandedOnANormalSquare" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:3:1:2:5" typref="3618780388">
+<Attr>
+<Pos c="110" s="21" l="25"/>
+</Attr>
+</Id>
+<Id value="StartingNewGame" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:3:1:2:6" typref="3618780388">
+<Attr>
+<Pos c="133" s="15" l="25"/>
+</Attr>
+</Id>
+</Enumerated_Values>
+</Set>
+</Hypothesis>
+</Proof_Obligation>
+<Proof_Obligation>
+<Tag>WellDefinednessInvariant</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Local_Hyp num="1">
+<Exp_Comparison initialTag="((noOfTurnsTaken) : (NAT))" op=":">
+<Attr>
+<Pos c="32" s="1" l="39"/>
+</Attr>
+<Id value="noOfTurnsTaken" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:5:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="14" l="39"/>
+</Attr>
+</Id>
+<Id value="NAT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:5:2" typref="3603043417">
+<Attr>
+<Pos c="34" s="3" l="39"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="2">
+<Exp_Comparison initialTag="((noOfLaddersEncountered) : (NAT))" op=":">
+<Attr>
+<Pos c="40" s="1" l="38"/>
+</Attr>
+<Id value="noOfLaddersEncountered" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:4:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="22" l="38"/>
+</Attr>
+</Id>
+<Id value="NAT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:4:2" typref="3603043417">
+<Attr>
+<Pos c="42" s="3" l="38"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="3">
+<Exp_Comparison initialTag="((noOfSnakesEncountered) : (NAT))" op=":">
+<Attr>
+<Pos c="39" s="1" l="37"/>
+</Attr>
+<Id value="noOfSnakesEncountered" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:3:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="21" l="37"/>
+</Attr>
+</Id>
+<Id value="NAT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:3:2" typref="3603043417">
+<Attr>
+<Pos c="41" s="3" l="37"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="4">
+<Exp_Comparison initialTag="((currentPosition) : (board))" op=":">
+<Attr>
+<Pos c="33" s="1" l="36"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="15" l="36"/>
+</Attr>
+</Id>
+<Id value="board" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:2:2" typref="3603043417">
+<Attr>
+<Pos c="35" s="5" l="36"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="5">
+<Exp_Comparison initialTag="((currentPosition) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos c="33" s="1" l="35"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="17" s="15" l="35"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:5:1:1:2" typref="3603043417">
+<Attr>
+<Pos c="35" s="4" l="35"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+</Proof_Obligation>
+<Proof_Obligation>
+<Tag>WellDefinednessInitialisation</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_Move</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Local_Hyp num="1">
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="20" s="1" l="55"/>
+</Attr>
+<Id value="report" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:2:1:1:1" typref="3618780388">
+<Attr>
+<Pos c="13" s="6" l="55"/>
+</Attr>
+</Id>
+<Id value="MOVEMENT_REPORT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:2:1:1:2" typref="4198551967">
+<Attr>
+<Pos c="22" s="15" l="55"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Move</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="20" s="1" l="55"/>
+</Attr>
+<Id value="report" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:2:1:1:1" typref="3618780388">
+<Attr>
+<Pos c="13" s="6" l="55"/>
+</Attr>
+</Id>
+<Id value="MOVEMENT_REPORT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:2:1:1:2" typref="4198551967">
+<Attr>
+<Pos c="22" s="15" l="55"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="34" s="1" l="56"/>
+</Attr>
+<Id value="position" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:2:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="25" s="8" l="56"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:2:1:2:2" typref="3603043417">
+<Attr>
+<Pos c="36" s="4" l="56"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Hypothesis>
+<Local_Hyp num="1">
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="41" s="1" expanded="yes" l="13"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Unary_Exp op="dom" typref="3603043417">
+<Attr>
+<Pos c="43" s="3" expanded="yes" l="13"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+<Id value="snakes" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:1:1:2:1" typref="103245008">
+<Attr>
+<Pos c="49" s="6" expanded="yes" l="13"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="2">
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="44" s="1" expanded="yes" l="14"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Unary_Exp op="dom" typref="3603043417">
+<Attr>
+<Pos c="46" s="3" expanded="yes" l="14"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+<Id value="ladders" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:1:1:2:1" typref="103245008">
+<Attr>
+<Pos c="52" s="7" expanded="yes" l="14"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="3">
+<Exp_Comparison op=">">
+<Attr>
+<Pos c="47" s="1" expanded="yes" l="15"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="finishSquare" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="49" s="12" expanded="yes" l="15"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="4">
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="33" s="1" expanded="yes" l="16"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="finishSquare" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="35" s="12" expanded="yes" l="16"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="5">
+<Unary_Pred op="not">
+<Exp_Comparison op="=">
+<Attr>
+<Pos c="33" s="1" expanded="yes" l="16"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="finishSquare" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="35" s="12" expanded="yes" l="16"/>
+<Pos c="19" s="6" l="91"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+</Local_Hyp>
+<Local_Hyp num="6">
+<Unary_Pred op="not">
+<Exp_Comparison op=">">
+<Attr>
+<Pos c="47" s="1" expanded="yes" l="15"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="finishSquare" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="49" s="12" expanded="yes" l="15"/>
+<Pos c="19" s="20" l="84"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+</Local_Hyp>
+<Local_Hyp num="7">
+<Unary_Pred op="not">
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="44" s="1" expanded="yes" l="14"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Unary_Exp op="dom" typref="3603043417">
+<Attr>
+<Pos c="46" s="3" expanded="yes" l="14"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+<Id value="ladders" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:1:1:2:1" typref="103245008">
+<Attr>
+<Pos c="52" s="7" expanded="yes" l="14"/>
+<Pos c="19" s="17" l="73"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Unary_Pred>
+</Local_Hyp>
+<Local_Hyp num="8">
+<Unary_Pred op="not">
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="41" s="1" expanded="yes" l="13"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Unary_Exp op="dom" typref="3603043417">
+<Attr>
+<Pos c="43" s="3" expanded="yes" l="13"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+<Id value="snakes" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:1:1:2:1" typref="103245008">
+<Attr>
+<Pos c="49" s="6" expanded="yes" l="13"/>
+<Pos c="19" s="14" l="62"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Unary_Pred>
+</Local_Hyp>
+<Simple_Goal>
+<Tag>Well definedness</Tag>
+<Goal>
+<Exp_Comparison op=":">
+<Binary_Exp op="|->">
+<Integer_Literal value="1" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:7:1:1:1:2:1:2:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="47" s="1" l="35"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="7" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:7:1:1:1:2:1:2:2,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="50" s="1" l="35"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Unary_Exp op="dom">
+<Id value="random" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:7:1:1:1:2:1:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:1:1:1" typref="1884358727">
+<Attr>
+<Pos c="38" s="6" l="35"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Well definedness</Tag>
+<Goal>
+<Exp_Comparison op=":">
+<Id value="random" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:7:1:1:1:2:1:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:1:1:1" typref="1884358727">
+<Attr>
+<Pos c="38" s="6" l="35"/>
+</Attr>
+</Id>
+<Binary_Exp op="+->">
+<Unary_Exp op="dom">
+<Id value="random" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:7:1:1:1:2:1:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:1:1:1" typref="1884358727">
+<Attr>
+<Pos c="38" s="6" l="35"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Unary_Exp op="ran">
+<Id value="random" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:7:1:1:1:2:1:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:1:1:1" typref="1884358727">
+<Attr>
+<Pos c="38" s="6" l="35"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Binary_Exp>
+</Exp_Comparison>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Well definedness</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Ref_Hyp num="1"/>
+<Exp_Comparison op=":">
+<Id value="snakes" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:1:2:1:1" typref="103245008">
+<Attr>
+<Pos c="36" s="6" l="65"/>
+</Attr>
+</Id>
+<Binary_Exp op="+->">
+<Unary_Exp op="dom">
+<Id value="snakes" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:1:2:1:1" typref="103245008">
+<Attr>
+<Pos c="36" s="6" l="65"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Unary_Exp op="ran">
+<Id value="snakes" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:1:2:1:1" typref="103245008">
+<Attr>
+<Pos c="36" s="6" l="65"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Binary_Exp>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Well definedness</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Ref_Hyp num="1"/>
+<Exp_Comparison op=":">
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:4:2:1:1:1" typref="103245008">
+<Attr>
+<Pos c="35" s="14" l="68"/>
+</Attr>
+</Id>
+<Unary_Exp op="seq">
+<Unary_Exp op="ran">
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:4:2:1:1:1" typref="103245008">
+<Attr>
+<Pos c="35" s="14" l="68"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Well definedness</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Ref_Hyp num="1"/>
+<Exp_Comparison op=":">
+<Binary_Exp op="&lt;-" typref="103245008">
+<Attr>
+<Pos c="50" s="2" l="68"/>
+</Attr>
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:4:2:1:1:1" typref="103245008">
+<Attr>
+<Pos c="35" s="14" l="68"/>
+</Attr>
+</Id>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="68"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:4:2:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="68"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:4:2:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="68"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+<Unary_Exp op="seq">
+<Unary_Exp op="ran">
+<Binary_Exp op="&lt;-" typref="103245008">
+<Attr>
+<Pos c="50" s="2" l="68"/>
+</Attr>
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:4:2:1:1:1" typref="103245008">
+<Attr>
+<Pos c="35" s="14" l="68"/>
+</Attr>
+</Id>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="68"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:4:2:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="68"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:2:1:4:2:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="68"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+</Unary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Well definedness</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="8"/>
+<Ref_Hyp num="2"/>
+</Nary_Pred>
+<Exp_Comparison op=":">
+<Id value="ladders" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:1:2:1:1" typref="103245008">
+<Attr>
+<Pos c="36" s="7" l="76"/>
+</Attr>
+</Id>
+<Binary_Exp op="+->">
+<Unary_Exp op="dom">
+<Id value="ladders" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:1:2:1:1" typref="103245008">
+<Attr>
+<Pos c="36" s="7" l="76"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Unary_Exp op="ran">
+<Id value="ladders" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:1:2:1:1" typref="103245008">
+<Attr>
+<Pos c="36" s="7" l="76"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Binary_Exp>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Well definedness</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="8"/>
+<Ref_Hyp num="2"/>
+</Nary_Pred>
+<Exp_Comparison op=":">
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:3:2:1:1:1" typref="103245008">
+<Attr>
+<Pos c="35" s="14" l="78"/>
+</Attr>
+</Id>
+<Unary_Exp op="seq">
+<Unary_Exp op="ran">
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:3:2:1:1:1" typref="103245008">
+<Attr>
+<Pos c="35" s="14" l="78"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Well definedness</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="8"/>
+<Ref_Hyp num="2"/>
+</Nary_Pred>
+<Exp_Comparison op=":">
+<Binary_Exp op="&lt;-" typref="103245008">
+<Attr>
+<Pos c="50" s="2" l="78"/>
+</Attr>
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:3:2:1:1:1" typref="103245008">
+<Attr>
+<Pos c="35" s="14" l="78"/>
+</Attr>
+</Id>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="78"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:3:2:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="78"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:3:2:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="78"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+<Unary_Exp op="seq">
+<Unary_Exp op="ran">
+<Binary_Exp op="&lt;-" typref="103245008">
+<Attr>
+<Pos c="50" s="2" l="78"/>
+</Attr>
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:3:2:1:1:1" typref="103245008">
+<Attr>
+<Pos c="35" s="14" l="78"/>
+</Attr>
+</Id>
+<Binary_Exp op="+" typref="2701647786">
+<Attr>
+<Pos c="42" s="1" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="78"/>
+</Attr>
+<Id value="currentPosition" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:3:2:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos c="26" s="15" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="78"/>
+</Attr>
+</Id>
+<Id value="diceValue" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:2:1:3:2:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos c="44" s="9" expanded="yes" l="12"/>
+<Pos c="55" s="11" l="78"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+</Unary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Well definedness</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="8"/>
+<Ref_Hyp num="7"/>
+<Ref_Hyp num="6"/>
+<Ref_Hyp num="4"/>
+</Nary_Pred>
+<Exp_Comparison op=":">
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:2:1:3:2:1:1" typref="103245008">
+<Attr>
+<Pos c="35" s="14" l="95"/>
+</Attr>
+</Id>
+<Unary_Exp op="seq">
+<Unary_Exp op="ran">
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:2:1:3:2:1:1" typref="103245008">
+<Attr>
+<Pos c="35" s="14" l="95"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Well definedness</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Nary_Pred op="&amp;">
+<Ref_Hyp num="8"/>
+<Ref_Hyp num="7"/>
+<Ref_Hyp num="6"/>
+<Ref_Hyp num="5"/>
+</Nary_Pred>
+<Exp_Comparison op=":">
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:3:1:3:2:1:1" typref="103245008">
+<Attr>
+<Pos c="35" s="14" l="102"/>
+</Attr>
+</Id>
+<Unary_Exp op="seq">
+<Unary_Exp op="ran">
+<Id value="visitedSquares" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:1:3:1:2:3:1:3:1:3:1:3:1:3:2:1:1" typref="103245008">
+<Attr>
+<Pos c="35" s="14" l="102"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_GameStatistics</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_GameStatistics</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_VisitedSquares</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_VisitedSquares</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_NewGame</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_NewGame</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis>
+<Exp_Comparison op=":">
+<Attr>
+<Pos c="32" s="1" l="126"/>
+</Attr>
+<Id value="report" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:2:1:1" typref="3618780388">
+<Attr>
+<Pos c="25" s="6" l="126"/>
+</Attr>
+</Id>
+<Id value="MOVEMENT_REPORT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:2:1:2" typref="4198551967">
+<Attr>
+<Pos c="34" s="15" l="126"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Hypothesis>
+<Simple_Goal>
+<Tag>Well definedness</Tag>
+<Goal>
+<Exp_Comparison op=":">
+<Binary_Exp op="|->">
+<Integer_Literal value="1" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:7:1:1:1:2:1:2:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:3:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="47" s="1" l="35"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="7" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:7:1:1:1:2:1:2:2,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:3:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos c="50" s="1" l="35"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Unary_Exp op="dom">
+<Id value="random" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:7:1:1:1:2:1:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:3:1:1:1:1" typref="1884358727">
+<Attr>
+<Pos c="38" s="6" l="35"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Well definedness</Tag>
+<Goal>
+<Exp_Comparison op=":">
+<Id value="random" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:7:1:1:1:2:1:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:3:1:1:1:1" typref="1884358727">
+<Attr>
+<Pos c="38" s="6" l="35"/>
+</Attr>
+</Id>
+<Binary_Exp op="+->">
+<Unary_Exp op="dom">
+<Id value="random" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:7:1:1:1:2:1:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:3:1:1:1:1" typref="1884358727">
+<Attr>
+<Pos c="38" s="6" l="35"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Unary_Exp op="ran">
+<Id value="random" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:7:1:1:1:2:1:1,D:\ABProjects\Coursework2\bdp\Game.bxml:1:7:4:3:1:1:1:1" typref="1884358727">
+<Attr>
+<Pos c="38" s="6" l="35"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Binary_Exp>
+</Exp_Comparison>
+</Goal>
+<Proof_State passList="Force(0),?" methodList="?" proofState="Unproved"/>
+</Simple_Goal>
+</Proof_Obligation>
+<TypeInfos>
+<Type id="4198551967">
+<Unary_Exp op="POW">
+<Id value="MOVEMENT_REPORT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:8:1:1:1"/>
+</Unary_Exp>
+</Type>
+<Type id="3618780388">
+<Id value="MOVEMENT_REPORT" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:8:2:1"/>
+</Type>
+<Type id="2701647786">
+<Id value="INTEGER" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:8:3:1"/>
+</Type>
+<Type id="103245008">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:8:4:1:1:1"/>
+<Id value="INTEGER" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:8:4:1:1:2"/>
+</Binary_Exp>
+</Unary_Exp>
+</Type>
+<Type id="3603043417">
+<Unary_Exp op="POW">
+<Id value="INTEGER" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:8:5:1:1"/>
+</Unary_Exp>
+</Type>
+<Type id="3083833907">
+<Unary_Exp op="POW">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:8:6:1:1:1:1"/>
+<Id value="INTEGER" tag="D:\ABProjects\Coursework2\bdp\Game.bxml:1:8:6:1:1:1:2"/>
+</Binary_Exp>
+</Unary_Exp>
+</Unary_Exp>
+</Type>
+<Type id="3603043417">
+<Unary_Exp op="POW">
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:4:1:1:1"/>
+</Unary_Exp>
+</Type>
+<Type id="103245008">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:4:2:1:1:1"/>
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:4:2:1:1:2"/>
+</Binary_Exp>
+</Unary_Exp>
+</Type>
+<Type id="2701647786">
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:4:3:1"/>
+</Type>
+<Type id="3083833907">
+<Unary_Exp op="POW">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:4:4:1:1:1:1"/>
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:4:4:1:1:1:2"/>
+</Binary_Exp>
+</Unary_Exp>
+</Unary_Exp>
+</Type>
+<Type id="3672872563">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:4:5:1:1"/>
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:4:5:1:2"/>
+</Binary_Exp>
+</Type>
+<Type id="3817003670">
+<Unary_Exp op="POW">
+<Generic_Type tag="D:/ABProjects/Coursework2/bdp\Board.bxml:1:4:6:1:1"/>
+</Unary_Exp>
+</Type>
+<Type id="3603043417">
+<Unary_Exp op="POW">
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:8:1:1:1"/>
+</Unary_Exp>
+</Type>
+<Type id="2701647786">
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:8:2:1"/>
+</Type>
+<Type id="1884358727">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:8:3:1:1:1:1"/>
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:8:3:1:1:1:2"/>
+</Binary_Exp>
+<Id value="INTEGER" tag="D:/ABProjects/Coursework2/bdp\Dice.bxml:1:8:3:1:1:2"/>
+</Binary_Exp>
+</Unary_Exp>
+</Type>
+</TypeInfos>
+</Proof_Obligations>

@@ -1,0 +1,43 @@
+THEORY ProofList IS
+_f(1) & _f(3) & WellDefinednessProperties.2,(_f(30) & _f(29) & _f(26) & _f(27) & _f(28) & _f(25) & _f(24) & _f(23) & _f(20) & _f(21) & _f(22) & _f(19) & _f(31) => _f(33));
+_f(1) & _f(3) & WellDefinednessProperties.1,(_f(30) & _f(29) & _f(26) & _f(27) & _f(28) & _f(25) & _f(31) => _f(32))
+END
+&
+THEORY Formulas IS
+((NAT) = (((0) .. (2147483647)))) & ((INT) = (((-2147483647) .. (2147483647))));
+board : POW( (NAT-{0})) & ((board) = (((1) .. (100)))) & snakes : board +-> board & snakes~ : board +-> board & ((snakes) : (((board) >+> (board)))) & ((snakes) = (({((31) |-> (4))}\/{((16) |-> (13))}\/{((47) |-> (25))}\/{((66) |-> (52))}\/{((63) |-> (60))}\/{((97) |-> (75))}))) & ((card(snakes)) = (6)) & ((((dom(snakes)) /\ (ran(snakes)))) = ({})) & ladders : board +-> board & ladders~ : board +-> board & ((ladders) : (((board) >+> (board)))) & ((ladders) = (({((3) |-> (39))}\/{((10) |-> (12))}\/{((27) |-> (53))}\/{((56) |-> (84))}\/{((61) |-> (99))}\/{((74) |-> (90))}))) & ((card(ladders)) = (6)) & ((((dom(ladders)) /\ (ran(ladders)))) = ({})) & dom(ladders) : POW( ((1) .. (90))) & normalSquares : POW( board) & ((((normalSquares) /\ (dom(snakes)))) = ({})) & ((((normalSquares) /\ (ran(snakes)))) = ({})) & ((((normalSquares) /\ (dom(ladders)))) = ({})) & ((((normalSquares) /\ (ran(ladders)))) = ({})) & ((((((((((normalSquares) /\ (dom(snakes)))) /\ (ran(snakes)))) /\ (dom(ladders)))) /\ (ran(ladders)))) = ({})) & ((((((((((normalSquares) \/ (dom(snakes)))) \/ (ran(snakes)))) \/ (dom(ladders)))) \/ (ran(ladders)))) = (board)) & ((startSquare) : (board)) & ((startSquare) : (normalSquares)) & ((startSquare) = (1)) & ((finishSquare) : (board)) & ((finishSquare) : (normalSquares)) & ((finishSquare) = (100));
+btrue;
+((finishSquare) : (normalSquares));
+((finishSquare) : (board));
+((startSquare) = (1));
+((startSquare) : (normalSquares));
+((startSquare) : (board));
+((((((((((normalSquares) \/ (dom(snakes)))) \/ (ran(snakes)))) \/ (dom(ladders)))) \/ (ran(ladders)))) = (board));
+((((((((((normalSquares) /\ (dom(snakes)))) /\ (ran(snakes)))) /\ (dom(ladders)))) /\ (ran(ladders)))) = ({}));
+((((normalSquares) /\ (ran(ladders)))) = ({}));
+((((normalSquares) /\ (dom(ladders)))) = ({}));
+((((normalSquares) /\ (ran(snakes)))) = ({}));
+((((normalSquares) /\ (dom(snakes)))) = ({}));
+normalSquares : POW( board);
+dom(ladders) : POW( ((1) .. (90)));
+((((dom(ladders)) /\ (ran(ladders)))) = ({}));
+((card(ladders)) = (6));
+((ladders) = (({((3) |-> (39))}\/{((10) |-> (12))}\/{((27) |-> (53))}\/{((56) |-> (84))}\/{((61) |-> (99))}\/{((74) |-> (90))})));
+ladders : board +-> board;
+ladders~ : board +-> board;
+((ladders) : (((board) >+> (board))));
+((((dom(snakes)) /\ (ran(snakes)))) = ({}));
+((card(snakes)) = (6));
+((snakes) = (({((31) |-> (4))}\/{((16) |-> (13))}\/{((47) |-> (25))}\/{((66) |-> (52))}\/{((63) |-> (60))}\/{((97) |-> (75))})));
+snakes : board +-> board;
+snakes~ : board +-> board;
+((snakes) : (((board) >+> (board))));
+((board) = (((1) .. (100))));
+board : POW( (NAT-{0}));
+"Well definedness";
+((snakes) : (FIN(snakes)));
+((ladders) : (FIN(ladders)))
+END
+&
+THEORY EnumerateX
+END

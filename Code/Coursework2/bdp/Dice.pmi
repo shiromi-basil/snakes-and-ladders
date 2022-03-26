@@ -1,0 +1,40 @@
+THEORY BalanceX IS
+Dice,8,0,0,0,0,0,0;
+Initialisation,2,0,0,0,0,0,0;
+WellDefinednessInitialisation,2,0,0,0,0,0,0;
+WellDefinedness_rollDice,2,0,0,0,0,0,0;
+rollDice,2,0,0,0,0,0,0
+END
+&
+THEORY ProofState IS
+Unproved;
+Unproved;
+Unproved;
+Unproved;
+Unproved;
+Unproved;
+Unproved;
+Unproved
+END
+&
+THEORY MethodList IS
+?;
+?;
+?;
+?;
+?;
+?;
+?;
+?
+END
+&
+THEORY PassList IS
+Force(0),?;
+Force(0),?;
+Force(0),?;
+Force(0),?;
+Force(0),?;
+Force(0),?;
+Force(0),?;
+Force(0),?
+END

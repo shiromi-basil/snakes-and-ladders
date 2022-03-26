@@ -1,0 +1,225 @@
+<Machine name='Dice' type='abstraction'>
+<Sees>
+<Attr>
+<Pos l='11' c='9' s='4'/>
+</Attr>
+<Referenced_Machine>
+<Attr>
+<Pos l='12' c='17' s='9'/>
+</Attr>
+<Name>RandomLib</Name>
+</Referenced_Machine>
+</Sees>
+<Concrete_Constants>
+<Attr>
+<Pos l='14' c='9' s='18'/>
+</Attr>
+<Id value='dice' typref='3603043417'>
+<Attr>
+<Pos l='15' c='9' s='4'/>
+</Attr>
+</Id>
+</Concrete_Constants>
+<Abstract_Variables>
+<Attr>
+<Pos l='21' c='5' s='18'/>
+</Attr>
+<Id value='diceValue' typref='2701647786'>
+<Attr>
+<Pos l='22' c='9' s='9'/>
+</Attr>
+</Id>
+</Abstract_Variables>
+<Properties>
+<Attr>
+<Pos l='17' c='5' s='10'/>
+</Attr>
+<Nary_Pred op='&amp;'>
+<Exp_Comparison op='&lt;:'>
+<Attr>
+<Pos l='18' c='22' s='2'/>
+</Attr>
+<Id value='dice' typref='3603043417'>
+<Attr>
+<Pos l='18' c='17' s='4'/>
+</Attr>
+</Id>
+<Id value='NAT1' typref='3603043417'>
+<Attr>
+<Pos l='18' c='25' s='4'/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op='='>
+<Attr>
+<Pos l='19' c='22' s='1'/>
+</Attr>
+<Id value='dice' typref='3603043417'>
+<Attr>
+<Pos l='19' c='17' s='4'/>
+</Attr>
+</Id>
+<Binary_Exp op='..' typref='3603043417'>
+<Attr>
+<Pos l='19' c='25' s='2'/>
+</Attr>
+<Integer_Literal value='1' typref='2701647786'>
+<Attr>
+<Pos l='19' c='24' s='1'/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value='6' typref='2701647786'>
+<Attr>
+<Pos l='19' c='27' s='1'/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Properties>
+<Invariant>
+<Attr>
+<Pos l='24' c='9' s='9'/>
+</Attr>
+<Nary_Pred op='&amp;'>
+<Exp_Comparison op=':'>
+<Attr>
+<Pos l='25' c='27' s='1'/>
+</Attr>
+<Id value='diceValue' typref='2701647786'>
+<Attr>
+<Pos l='25' c='17' s='9'/>
+</Attr>
+</Id>
+<Id value='NAT1' typref='3603043417'>
+<Attr>
+<Pos l='25' c='29' s='4'/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=':'>
+<Attr>
+<Pos l='26' c='27' s='1'/>
+</Attr>
+<Id value='diceValue' typref='2701647786'>
+<Attr>
+<Pos l='26' c='17' s='9'/>
+</Attr>
+</Id>
+<Id value='dice' typref='3603043417'>
+<Attr>
+<Pos l='26' c='29' s='4'/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Invariant>
+<Initialisation>
+<Attr>
+<Pos l='28' c='9' s='14'/>
+</Attr>
+<Assignement_Sub>
+<Attr>
+<Pos l='29' c='27' s='2'/>
+</Attr>
+<Variables>
+<Id value='diceValue' typref='2701647786'>
+<Attr>
+<Pos l='29' c='17' s='9'/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Binary_Exp op='(' typref='2701647786'>
+<Attr>
+<Pos l='29' c='37' s='0'/>
+</Attr>
+<Id value='random' typref='1884358727'>
+<Attr>
+<Pos l='29' c='30' s='6'/>
+</Attr>
+</Id>
+<Binary_Exp op='|-&gt;'>
+<Integer_Literal value='1' typref='2701647786'>
+<Attr>
+<Pos l='29' c='39' s='1'/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value='7' typref='2701647786'>
+<Attr>
+<Pos l='29' c='42' s='1'/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+</Values>
+</Assignement_Sub>
+</Initialisation>
+<Operations>
+<Operation name='rollDice'>
+<Attr>
+<Pos l='33' c='9' s='8' endLine='36'/>
+</Attr>
+<Body>
+<Assignement_Sub>
+<Attr>
+<Pos l='35' c='35' s='2'/>
+</Attr>
+<Variables>
+<Id value='diceValue' typref='2701647786'>
+<Attr>
+<Pos l='35' c='25' s='9'/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Binary_Exp op='(' typref='2701647786'>
+<Attr>
+<Pos l='35' c='45' s='0'/>
+</Attr>
+<Id value='random' typref='1884358727'>
+<Attr>
+<Pos l='35' c='38' s='6'/>
+</Attr>
+</Id>
+<Binary_Exp op='|-&gt;'>
+<Integer_Literal value='1' typref='2701647786'>
+<Attr>
+<Pos l='35' c='47' s='1'/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value='7' typref='2701647786'>
+<Attr>
+<Pos l='35' c='50' s='1'/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+</Values>
+</Assignement_Sub>
+</Body>
+</Operation>
+</Operations>
+<TypeInfos>
+<Type id='3603043417'>
+<Unary_Exp op='POW'>
+<Id value='INTEGER'/>
+</Unary_Exp>
+</Type>
+<Type id='2701647786'>
+<Id value='INTEGER'/>
+</Type>
+<Type id='1884358727'>
+<Unary_Exp op='POW'>
+<Binary_Exp op='*'>
+<Binary_Exp op='*'>
+<Id value='INTEGER'/>
+<Id value='INTEGER'/>
+</Binary_Exp>
+<Id value='INTEGER'/>
+</Binary_Exp>
+</Unary_Exp>
+</Type>
+</TypeInfos>
+
+</Machine>

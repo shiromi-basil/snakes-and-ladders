@@ -1,0 +1,9 @@
+digraph {
+Board [ label=" Board " shape= box ]
+Dice [ label=" Dice " shape= box ]
+Game [ label=" Game " shape= box ]
+RandomLib [ label=" RandomLib " shape= box ]
+
+"Dice" -> "RandomLib" [style= dotted ]
+"Game" -> "Board" [style= dotted ]
+}

@@ -1,0 +1,23 @@
+THEORY BalanceX IS
+RandomLib,3,0,0,0,0,0,0;
+AssertionLemmas,1,0,0,0,0,0,0;
+WellDefinednessAssertions,2,0,0,0,0,0,0
+END
+&
+THEORY ProofState IS
+Unproved;
+Unproved;
+Unproved
+END
+&
+THEORY MethodList IS
+?;
+?;
+?
+END
+&
+THEORY PassList IS
+Force(0),?;
+Force(0),?;
+Force(0),?
+END
